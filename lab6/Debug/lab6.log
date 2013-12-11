@@ -1,0 +1,26 @@
+﻿Build started 11.12.2013 17:12:34.
+     1>Project "C:\_BSU\ПРОГА\lab6\lab6\lab6.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\lab6.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\lab6.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt lab6.cpp /clr:nostdlib 
+         lab6.cpp
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(151): error C2039: 'label2_Click' : is not a member of 'lab6::Form1'
+                 c:\_bsu\прога\lab6\lab6\Form1.h(15) : see declaration of 'lab6::Form1'
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(151): error C2065: 'label2_Click' : undeclared identifier
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(151): error C3350: 'System::EventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(292): error C2039: 'for_form_Paint' : is not a member of 'lab6::Form1'
+                 c:\_bsu\прога\lab6\lab6\Form1.h(15) : see declaration of 'lab6::Form1'
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(292): error C2065: 'for_form_Paint' : undeclared identifier
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(292): error C3350: 'System::Windows::Forms::PaintEventHandler' : a delegate constructor expects 2 argument(s)
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(350): error C2039: 'cancel' : is not a member of 'System::Windows::Forms::Application'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.windows.forms.dll : see declaration of 'System::Windows::Forms::Application'
+     1>c:\_bsu\прога\lab6\lab6\Form1.h(350): error C2064: term does not evaluate to a function taking 0 arguments
+     1>Done Building Project "C:\_BSU\ПРОГА\lab6\lab6\lab6.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30
